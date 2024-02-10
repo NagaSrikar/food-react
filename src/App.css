@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+body{
+    background-color:#caf0f8;
+}
+h1{
+    margin-left:680px;
+    margin-top: 20px;
+    font-family: 'Acme', sans-serif;
+
+}
+.container{
+    background-color: #00b4d8;
+    display: flex;
+    justify-content: center;
+   
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+} 
+#one{
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+#first{
+    margin-left: 5px;
+    border-radius: 10px;
+    font-family: 'Bree Serif', serif;
+    transition: color 0.5ms ease-in-out ;
+
+}
+#second{
+    margin-left: 5px;
+    border-radius: 10px;
+    font-family: 'Bree Serif', serif;
+
+}
+
+.child{
+margin-top: 15px;
+
+}
+.child li{
+    margin-top: 10px;
+    font-family: 'Bree Serif', serif;
+}
